@@ -43,7 +43,7 @@ export default class Article {
 
       for (let i = 0; i < livres.length; i++) {
         if (
-          this.elementHtml.src.replace("http://127.0.0.1:5500/TP1", ".") ==
+          this.elementHtml.src.replace("http://127.0.0.1:5500", ".") ==
           livres[i].image
         ) {
           this.conteneur_detail.innerHTML = `<p data-js-titre>Titre : ${livres[i].titre}</p>
