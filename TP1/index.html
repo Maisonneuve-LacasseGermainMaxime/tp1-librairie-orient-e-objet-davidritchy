@@ -13,7 +13,7 @@
         <div>
           <strong><p>TP1</p></strong>
         </div>
-        <div class="panier">
+        <div class="panier" data-js-panier>
           <img
             src="./logo/cart-shopping-solid.svg"
             width="50"
@@ -21,79 +21,59 @@
             alt="Logo_panier"
           />
 
-          <div class="nbre_article inactive">
-            <p>0 articles</p>
+          <div class="nbre_article">
+          
           </div>
 
-          <div class="tableau inactive">
+          <div class="tableau inactive" data-js-tableau>
             <h4>Liste d'articles</h4>
-            <ul>
-              <li>article1</li>
+            <ul data-js-produit>
+
             </ul>
-            <p>Total:</p>
+           
+            <p data-js-total></p>
           </div>
         </div>
       </div>
     </header>
 
     <div class="principale">
-      <nav>
+      <nav data-js-choix>
         <ul>
           <li>Tous</li>
-          <li>Nouveautes</li>
-          <li>Litterature</li>
+          <li>Nouveautés</li>
+          <li>Littérature</li>
           <li>Art de vivre</li>
-          <li>BD,jeunesse,humour</li>
-          <li>Culture et societe</li>
-          <li>Loisir,Tourisme,Nature</li>
-          <li>Savoir et Science</li>
+          <li>BD, Jeunesse, Humour</li>
+          <li>Culture et société</li>
+          <li>Loisirs, Tourisme, Nature</li>
+          <li>Savoir et science</li>
         </ul>
       </nav>
-      <div class="fenetre">
-        <div class="article">
-          <div class="conteneur_img">
-            <img src="./img/bonjour-kwe.jpeg" alt="image" />
-          </div>
+      <div class="fenetre" data-js-fenetre>
 
-          <div class="conteneur_description">
-            <p>Québec au cinéma : Ce que nos films disent de nous</p>
-            <div class="ajouter">
-              <p><strong>35$</strong></p>
-              <div class="bouton">
-                <p>ajouter</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      
+
       </div>
-    </div>
 
-    <div class="modale inactive">
+    
+
+    <div class="modale inactive" data-js-modale>
       <div class="cadre">
         <div class="cover">
-          <img src="./img/bonjour-kwe.jpeg" alt="cover_image" />
+          <img src="" alt="cover_image" />
         </div>
-        <div class="detail">
-          <p>Titre : Québec au cinéma : Ce que nos films disent de nous</p>
-          <p>Auteur : Michel Coulombe</p>
-          <p>Editeur : Saint Jean</p>
-          <p>Pages : 280</p>
-          <p>
-            Les films sont le miroir de la société dont ils sont issus. Rocky
-            est éminemment américain. Le fabuleux destin d\'Amélie Poulain,
-            indiscutablement français. Huit et demi, carrément italien. En quoi
-            nos films sont-ils… incontestablement québécois ? Que disent-ils de
-            nous ? À partir de quelque 600 longs métrages des 80 dernières
-            années, Michel Coulombe décortique plus de 100 thèmes qui colorent
-            notre cinématographie, de la religion au nationalisme, en passant
-            par la cigarette et la bicyclette !
-          </p>
+        <div class="detail" data-js-detail>
+     
         </div>
       </div>
 
       <div class="close">
         <p>X</p>
       </div>
+    </div>
+    <div class="inactive">
+      <a href="#">Revenir en haut</a>
     </div>
   </body>
 </html>
